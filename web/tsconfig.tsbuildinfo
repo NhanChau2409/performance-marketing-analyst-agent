@@ -1,0 +1,1 @@
+{"root":["./src/app.tsx","./src/main.tsx","./src/types.ts","./src/components/chatview.tsx","./src/components/messagebubble.tsx","./src/components/toolcallblock.tsx","./src/components/toolui.tsx","./src/lib/adapter.ts"],"version":"5.9.3"}

@@ -1,0 +1,55 @@
+services:
+  postgres:
+    image: postgres:16
+    environment:
+      POSTGRES_DB: marketing
+      POSTGRES_USER: marketing
+      POSTGRES_PASSWORD: marketing_local
+    ports:
+      - "5433:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U marketing"]
+      interval: 5s
+      timeout: 3s
+      retries: 5
+
+  api:
+    build:
+      context: .
+    ports:
+      - "8000:8000"
+    env_file:
+      - .env
+    environment:
+      # Override localhost → docker service name
+      DATABASE_URL: postgresql+asyncpg://marketing:marketing_local@postgres:5432/marketing
+    depends_on:
+      postgres:
+        condition: service_healthy
+
+  web:
+    build:
+      context: ../web
+    ports:
+      - "3000:80"
+    depends_on:
+      - api
+
+  # Uncomment in Step 3 when you add the sandbox
+  # sandbox:
+  #   build:
+  #     context: ./src/marketing_agent/sandbox
+  #     dockerfile: Dockerfile
+  #   ports:
+  #     - "8100:8100"
+  #   volumes:
+  #     - sandbox_data:/sandbox
+  #   mem_limit: 512m
+  #   cpus: 1.0
+  #   network_mode: "none"
+
+volumes:
+  pgdata:
+  # sandbox_data:

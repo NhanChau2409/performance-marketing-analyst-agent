@@ -1,0 +1,381 @@
+#
+# bibliography.yaml
+#
+# A bibliography file written in the Hayagriva bibliography format.
+#
+
+# ----- Primary references for this thesis -----
+
+yao2022react:
+  type: article
+  title: >-
+    ReAct: Synergizing Reasoning and Acting in Language Models
+  author:
+    - Yao, Shunyu
+    - Zhao, Jeffrey
+    - Yu, Dian
+    - Du, Nan
+    - Shafran, Izhak
+    - Narasimhan, Karthik
+    - Cao, Yuan
+  date: 2022
+  url:
+    value: https://arxiv.org/abs/2210.03629
+    date: 2026-03-15
+  parent:
+    type: proceedings
+    title: International Conference on Learning Representations (ICLR 2023)
+
+wei2022cot:
+  type: article
+  title: >-
+    Chain-of-Thought Prompting Elicits Reasoning in Large Language Models
+  author:
+    - Wei, Jason
+    - Wang, Xuezhi
+    - Schuurmans, Dale
+    - Bosma, Maarten
+    - Ichter, Brian
+    - Xia, Fei
+    - Chi, Ed
+    - Le, Quoc
+    - Zhou, Denny
+  date: 2022
+  url:
+    value: https://arxiv.org/abs/2201.11903
+    date: 2026-03-15
+  parent:
+    type: proceedings
+    title: Advances in Neural Information Processing Systems (NeurIPS 2022)
+    volume: 35
+
+brown2020gpt3:
+  type: article
+  title: >-
+    Language Models are Few-Shot Learners
+  author:
+    - Brown, Tom B.
+    - Mann, Benjamin
+    - Ryder, Nick
+    - Subbiah, Melanie
+    - Kaplan, Jared
+    - Dhariwal, Prafulla
+    - Neelakantan, Arvind
+    - Shyam, Pranav
+    - Sastry, Girish
+    - Askell, Amanda
+    - Agarwal, Sandhini
+    - Herbert-Voss, Ariel
+    - Krueger, Gretchen
+    - Henighan, Tom
+    - Child, Rewon
+    - Ramesh, Aditya
+    - Ziegler, Daniel M.
+    - Wu, Jeffrey
+    - Winter, Clemens
+    - Hesse, Christopher
+    - Chen, Mark
+    - Sigler, Eric
+    - Litwin, Mateusz
+    - Gray, Scott
+    - Chess, Benjamin
+    - Clark, Jack
+    - Berner, Christopher
+    - McCandlish, Sam
+    - Radford, Alec
+    - Sutskever, Ilya
+    - Amodei, Dario
+  date: 2020
+  url:
+    value: https://arxiv.org/abs/2005.14165
+    date: 2026-03-15
+  parent:
+    type: proceedings
+    title: Advances in Neural Information Processing Systems (NeurIPS 2020)
+    volume: 33
+
+vaswani2017attention:
+  type: article
+  title: >-
+    Attention Is All You Need
+  author:
+    - Vaswani, Ashish
+    - Shazeer, Noam
+    - Parmar, Niki
+    - Uszkoreit, Jakob
+    - Jones, Llion
+    - Gomez, Aidan N.
+    - Kaiser, Lukasz
+    - Polosukhin, Illia
+  date: 2017
+  url:
+    value: https://arxiv.org/abs/1706.03762
+    date: 2026-03-15
+  parent:
+    type: proceedings
+    title: Advances in Neural Information Processing Systems (NeurIPS 2017)
+    volume: 30
+
+schick2023toolformer:
+  type: article
+  title: >-
+    Toolformer: Language Models Can Teach Themselves to Use Tools
+  author:
+    - Schick, Timo
+    - Dwivedi-Yu, Jane
+    - Dessì, Roberto
+    - Raileanu, Roberta
+    - Lomeli, Maria
+    - Hambro, Eric
+    - Zettlemoyer, Luke
+    - Cancedda, Nicola
+    - Scialom, Thomas
+  date: 2023
+  url:
+    value: https://arxiv.org/abs/2302.04761
+    date: 2026-03-15
+  parent:
+    type: proceedings
+    title: Advances in Neural Information Processing Systems (NeurIPS 2023)
+
+hong2023metagpt:
+  type: article
+  title: >-
+    MetaGPT: Meta Programming for a Multi-Agent Collaborative Framework
+  author:
+    - Hong, Sirui
+    - Zhuge, Mingchen
+    - Chen, Jonathan
+    - Zheng, Xiawu
+    - Cheng, Yuheng
+    - Zhang, Ceyao
+    - Wang, Jinlin
+    - Wang, Zili
+    - Yau, Steven Ka Shing
+    - Lin, Zijuan
+    - Zhou, Liyang
+    - Ran, Chenyu
+    - Xiao, Lingfeng
+    - Wu, Chenglin
+    - Schmidhuber, Jürgen
+  date: 2023
+  url:
+    value: https://arxiv.org/abs/2308.00352
+    date: 2026-03-15
+  parent:
+    type: proceedings
+    title: International Conference on Learning Representations (ICLR 2024)
+
+langgraph2024:
+  type: web
+  title: LangGraph — Build Reliable, Stateful Agents
+  author: LangChain
+  organization: LangChain, Inc.
+  date: 2024
+  url:
+    value: https://langchain-ai.github.io/langgraph/
+    date: 2026-03-15
+
+anthropic2024claude:
+  type: web
+  title: Claude Model Overview
+  author: Anthropic
+  organization: Anthropic
+  date: 2024
+  url:
+    value: https://docs.anthropic.com/en/docs/about-claude/models/overview
+    date: 2026-03-15
+
+openai2023functions:
+  type: web
+  title: Function Calling
+  author: OpenAI
+  organization: OpenAI
+  date: 2023
+  url:
+    value: https://platform.openai.com/docs/guides/function-calling
+    date: 2026-03-15
+
+fastapi2024:
+  type: web
+  title: FastAPI — Modern, Fast Web Framework for Building APIs with Python
+  author: Ramírez, Sebastián
+  date: 2024
+  url:
+    value: https://fastapi.tiangolo.com/
+    date: 2026-03-15
+
+docker2024:
+  type: web
+  title: Docker Documentation
+  author: Docker, Inc.
+  organization: Docker, Inc.
+  date: 2024
+  url:
+    value: https://docs.docker.com/
+    date: 2026-03-15
+
+litellm2024:
+  type: web
+  title: LiteLLM — Call all LLM APIs using the OpenAI format
+  author: BerriAI
+  organization: BerriAI
+  date: 2024
+  url:
+    value: https://docs.litellm.ai/
+    date: 2026-03-15
+
+sqlalchemy2024:
+  type: web
+  title: SQLAlchemy — The Python SQL Toolkit and Object Relational Mapper
+  author: Bayer, Michael
+  date: 2024
+  url:
+    value: https://www.sqlalchemy.org/
+    date: 2026-03-15
+
+postgresql2024:
+  type: web
+  title: PostgreSQL Documentation
+  author: PostgreSQL Global Development Group
+  date: 2024
+  url:
+    value: https://www.postgresql.org/docs/
+    date: 2026-03-15
+
+sse2021:
+  type: web
+  title: Server-Sent Events
+  author: Mozilla Developer Network
+  organization: Mozilla
+  date: 2021
+  url:
+    value: https://developer.mozilla.org/en-US/docs/Web/API/Server-sent_events
+    date: 2026-03-15
+
+pandas2020:
+  type: article
+  title: >-
+    Data Structures for Statistical Computing in Python
+  author:
+    - McKinney, Wes
+  date: 2010
+  url:
+    value: https://doi.org/10.25080/Majora-92bf1922-00a
+    date: 2026-03-15
+  parent:
+    type: proceedings
+    title: Proceedings of the 9th Python in Science Conference
+    page-range: 56-61
+
+matplotlib2007:
+  type: article
+  title: >-
+    Matplotlib: A 2D Graphics Environment
+  author:
+    - Hunter, John D.
+  date: 2007
+  serial-number:
+    doi: 10.1109/MCSE.2007.55
+  parent:
+    type: periodical
+    title: Computing in Science & Engineering
+    volume: 9
+    issue: 3
+    page-range: 90-95
+
+gartner2023analytics:
+  type: web
+  title: >-
+    Magic Quadrant for Analytics and Business Intelligence Platforms
+  author: Gartner
+  organization: Gartner, Inc.
+  date: 2023
+  url:
+    value: https://www.gartner.com/en/documents/4218299
+    date: 2026-03-15
+
+weasyprint2024:
+  type: web
+  title: WeasyPrint — The Awesome Document Factory
+  author: CourtBouillon
+  date: 2024
+  url:
+    value: https://weasyprint.org/
+    date: 2026-03-15
+
+pydantic2024:
+  type: web
+  title: Pydantic — Data Validation Using Python Type Hints
+  author: Colvin, Samuel
+  date: 2024
+  url:
+    value: https://docs.pydantic.dev/
+    date: 2026-03-15
+
+asyncio2024:
+  type: web
+  title: asyncio — Asynchronous I/O
+  author: Python Software Foundation
+  date: 2024
+  url:
+    value: https://docs.python.org/3/library/asyncio.html
+    date: 2026-03-15
+
+# ----- Platform API documentation (synthetic data schema sources) -----
+
+google-ads-api-fields:
+  type: web
+  title: "Google Ads API Field Reference — Reporting Overview"
+  author: Google LLC
+  organization: Google LLC
+  date: 2024
+  url:
+    value: https://developers.google.com/google-ads/api/fields/v19/overview
+    date: 2026-04-15
+
+meta-ads-insights:
+  type: web
+  title: "Meta Ads Insights API Reference"
+  author: Meta Platforms Inc.
+  organization: Meta Platforms Inc.
+  date: 2024
+  url:
+    value: https://developers.facebook.com/docs/marketing-api/reference/ads-insights/
+    date: 2026-04-15
+
+tiktok-ads-api:
+  type: web
+  title: "TikTok Ads API — Reporting Dimensions and Metrics"
+  author: TikTok Inc.
+  organization: TikTok Inc.
+  date: 2024
+  url:
+    value: https://ads.tiktok.com/marketing_api/docs?id=1738864915188737
+    date: 2026-04-15
+
+# ----- Retained TAU template references (keep for thesis guide citations) -----
+
+kirjoitusohje2019:
+  type: reference
+  title: Tampereen yliopiston tekniikan alan opinnäytteiden kirjoitusohje
+  date: 2019
+  publisher:
+    name: null
+    location: Tampere
+  organization: Tampereen yliopisto
+  url:
+    value: https://content-webapi.tuni.fi/proxy/public/2019-10/tau_tekniikan_alan_opinnaytetyoohje_2019_versio3.pdf
+    date: 2023-11-18
+
+thesiswriting2019:
+  type: reference
+  title: Guide to writing a thesis in technical fields
+  date: 2019
+  publisher:
+    name: null
+    location: Tampere
+  organization: Tampere University
+  url:
+    value: https://content-webapi.tuni.fi/proxy/public/2019-10/tau_thesis_guide_for_technical_fields_2019_version-3-1.pdf
+    date: 2023-11-18
