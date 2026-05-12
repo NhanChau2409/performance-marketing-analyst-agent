@@ -1,6 +1,7 @@
-# Design and Implementation of a LangGraph-Based Marketing Analytics Agent
+# Performance Marketing Analyst Agent
 
-**An Exploration of Agentic Patterns for Autonomous Data Analysis**
+**Design and Implementation of a LangGraph-Based Marketing Analytics Agent**
+*An Exploration of Agentic Patterns for Autonomous Data Analysis*
 
 Bachelor's thesis — Tampere University
 Author: Nhan Chau | Examiner: Professor Ahmed Farooq
